@@ -74,7 +74,6 @@ favoriteThings.show = 'The Office'
 favoriteThings.food = 'Chicken Nuggets'
 favoriteThings.book = 'Harry Potter'
 
-console.log(favoriteThings);
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -92,6 +91,10 @@ var carDetails = {
 */
 
 //Code Here
+let {color, make, model, year} = carDetails
+
+console.log(`${color}`);
+
 
 
 
