@@ -184,6 +184,7 @@ user.email = 'bryan.smith@devmounta.in'
 */
 
 //Code Here
+delete user.age 
 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
