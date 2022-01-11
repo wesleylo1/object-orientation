@@ -195,7 +195,17 @@ delete user.age
 */
 
 //Code here
+class Cat {
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+}
 
+let cat1 = new Cat('Swift', 4, 'black/white');
+
+console.log(cat1.name);
 
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
