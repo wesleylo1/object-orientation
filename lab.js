@@ -146,6 +146,12 @@ function totalPopulation(obj) {
 */
 
 //Code Here
+function ingredients(obj) {
+  let {carb, fat, protein} = obj
+  let array = []
+  array.push(carb, fat, protein)
+  return array
+}
 
 
 
