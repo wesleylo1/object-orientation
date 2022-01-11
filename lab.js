@@ -93,8 +93,6 @@ var carDetails = {
 //Code Here
 let {color, make, model, year} = carDetails
 
-console.log(`${color}`);
-
 
 
 
@@ -109,11 +107,12 @@ console.log(`${color}`);
 function greeting( obj ) {
   //Code Here
   
+  let {title, firstName, lastName} = obj 
+
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
-
 
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
